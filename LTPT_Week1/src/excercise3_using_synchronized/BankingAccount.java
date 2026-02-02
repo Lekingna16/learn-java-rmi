@@ -28,7 +28,7 @@ public class BankingAccount {
     }
 
     public synchronized void withdraw (double amount){
-        if (amount > balance){
+        while (amount > balance){
             try {
                 System.out.println("Balance < Amount");
                 wait();
@@ -47,7 +47,7 @@ public class BankingAccount {
 
     public synchronized void deposits (double amount){
 
-        if (balance + amount > 100_000){
+        while (balance + amount > 100_000){
             try {
                 System.out.println("Balance + Amount > 100_000");
                 wait();
