@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LTPT_Week1/LTPT_Week1.iml" filepath="$PROJECT_DIR$/LTPT_Week1/LTPT_Week1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LTPT_Week2/LTPT_Week2.iml" filepath="$PROJECT_DIR$/LTPT_Week2/LTPT_Week2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learn-java-rmi.iml" filepath="$PROJECT_DIR$/.idea/learn-java-rmi.iml" />
+    </modules>
+  </component>
+</project>
